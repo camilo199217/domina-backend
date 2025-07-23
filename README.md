@@ -1,16 +1,13 @@
-# 🛠️ Pavas API – Prueba Técnica Backend
+# 🛠️ Domina API – Prueba Técnica Backend
 
-Este proyecto es una API RESTful construida con **Node.js**, **TypeScript**, **TypeORM** y **Routing Controllers**, diseñada como parte de una prueba técnica de Pavas.
+Este proyecto es una API RESTful construida con **Node.js**, **TypeScript**, **TypeORM** y **Routing Controllers**, diseñada como parte de una prueba técnica de Domina.
 
 ## 🚀 Funcionalidad
 
 La API permite:
 
-- Crear, listar, actualizar y eliminar **categorías**
-- Crear, listar, actualizar y eliminar **productos**
-- Cada producto pertenece a una única categoría
-- El nombre de cada categoría es **único**
-- El nombre de cada producto es **único dentro de su categoría**
+- Crear, listar, actualizar y eliminar **tareas**
+- Un usuario puede crear varias tareas
 
 ## 📚 Tecnologías utilizadas
 
@@ -34,8 +31,8 @@ La API permite:
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/pavas-backend.git
-cd pavas-backend
+git clone https://github.com/camilo199217/domina-backend.git
+cd domina-backend
 
 cp .env
 yarn
